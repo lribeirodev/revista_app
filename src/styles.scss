@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'caudex';
+  src: url('./assets/fonts/caudex/Caudex-Regular.ttf');
+}
+
+body {
+  font-family: 'caudex';
+  margin: 0;
+  padding: 0;
+}

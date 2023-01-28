@@ -1,0 +1,16 @@
+.loading-cmp {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    &__icon {
+      width: 50px;
+    }
+    &__subtitle {
+      margin-top: 5px;
+      font-size: 15px;
+    }
+  }
+}

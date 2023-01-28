@@ -1,0 +1,14 @@
+<div class="category-cmp">
+  <app-loading [isLoading]="loading"></app-loading>
+  <div class="category-cmp__container" *ngIf="!loading">
+    <div class="category-cmp__container__title" [innerHTML]="category.title">
+    </div>
+    <div class="category-cmp__container__items" #el (mousedown)="startDragging($event, el)" (mouseup)="stopDragging($event)" (mouseleave)="stopDragging($event)"  (mousemove)="mouseMove($event, el)" [style.cursor]="mouseIcon">
+      <div class="category-cmp__container__items__wrapper">
+        <ng-container *ngFor="let item of category.items">
+          <app-category-item [item]="item"></app-category-item>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</div>

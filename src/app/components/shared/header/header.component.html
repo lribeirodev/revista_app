@@ -1,0 +1,8 @@
+<div class="header-cmp">
+  <app-loading [isLoading]="loading"></app-loading>
+  <div class="header-cmp__container" *ngIf="!loading">
+    <img [src]="header.logoSrc" alt="" class="header-cmp__container__logo">
+    <h1 class="header-cmp__container__title" [innerHTML]="header.title"></h1>
+    <h2 class="header-cmp__container__subtitle" [innerHTML]="header.subtitle"></h2>
+  </div>
+</div>

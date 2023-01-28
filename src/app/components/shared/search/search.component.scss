@@ -1,0 +1,23 @@
+.search-cmp {
+  &__container {
+    display: flex;
+    justify-content: center;
+    &__wrapper {
+      display: flex;
+      position: relative;
+      margin-top: 38px;
+      &__field {
+        width: 325px;
+        height: 36px;
+        border: 3px solid #D9D9D9;
+        border-radius: 10px;
+      }
+      &__icon {
+        position: absolute;
+        right: 6px;
+        top: 8px;
+        height: 25px;
+      }
+    }
+  }
+}
