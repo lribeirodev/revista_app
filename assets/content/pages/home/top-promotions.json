@@ -1,0 +1,26 @@
+{
+  "title": "promoções top",
+  "items": [
+    {
+      "title":"HD Externo",
+      "price":"30,00",
+      "description":"HD externo com capacidade de 5 teras",
+      "startDate": "29/01/2023",
+      "endDate":"06/02/2023"
+    },
+    {
+      "title":"HD Externo",
+      "price":"30,00",
+      "description":"HD externo com capacidade de 5 teras",
+      "startDate": "29/01/2023",
+      "endDate":"06/02/2023"
+    },
+    {
+      "title":"HD Externo",
+      "price":"30,00",
+      "description":"HD externo com capacidade de 5 teras",
+      "startDate": "29/01/2023",
+      "endDate":"06/02/2023"
+    }
+  ]
+}
