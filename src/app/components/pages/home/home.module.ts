@@ -4,6 +4,7 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { RouterModule } from '@angular/router';
 import { PagesService } from '../../core/services/pages.service';
+import { OfferModule } from '../../shared/offer/offer.module';
 
 
 @NgModule({
@@ -11,6 +12,7 @@ import { PagesService } from '../../core/services/pages.service';
   imports: [
     CommonModule,
     HomeRoutingModule,
+    OfferModule,
   ],
   providers: [
     PagesService,

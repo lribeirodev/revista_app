@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Mouse } from '../../core/enums/mouse.enum';
+import { Mouse } from '../../core/enums/utils/mouse.enum';
 import { Category } from '../../core/interfaces/component/category/category.interface';
 import { ContentService } from '../../core/services/content.service';
 
