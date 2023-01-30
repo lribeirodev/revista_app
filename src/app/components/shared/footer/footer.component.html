@@ -1,0 +1,19 @@
+<div class="footer-cmp">
+  <hr class="footer-cmp__line">
+  <app-loading [isLoading]="loading"></app-loading>
+  <div class="footer-cmp__container" *ngIf="!loading">
+    <div class="footer-cmp__container__links">
+      <ng-container *ngFor="let item of footer.links">
+        <a [href]="item.src" class="footer-cmp__container__links__link">{{item.title}}</a>
+      </ng-container>
+    </div>
+    <div class="footer-cmp__container__wrapper">
+      <div class="footer-cmp__container__wrapper__title">
+        {{footer.partnerships.title}}
+      </div>
+      <div class="footer-cmp__container__wrapper__number">
+        {{footer.partnerships.partners}}
+      </div>
+    </div>
+  </div>
+</div>
