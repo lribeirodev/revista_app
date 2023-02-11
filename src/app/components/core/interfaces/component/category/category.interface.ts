@@ -8,4 +8,6 @@ export interface CategoryItem {
   imageSrc: string,
   group: string,
   link: string,
+  categoriesName: string,
+  categoriesTitle: string,
 }
