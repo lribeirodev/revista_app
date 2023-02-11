@@ -13,6 +13,15 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.module').then(m => m.HomeModule),
   },
   {
+    path: "Categories/:id",
+    data: {
+      title: "Revista - Um pouco de tudo pertinho de você",
+      content: "/assets/content/pages/categories/"
+    },
+    component: PagesComponent,
+    loadChildren: () => import('./categories/categories.module').then(m => m.CategoriesModule),
+  },
+  {
     path: "",
     pathMatch: "full",
     redirectTo: "/Home",

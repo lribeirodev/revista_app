@@ -6,6 +6,7 @@ import { PagesComponent } from './pages.component';
 import { HeaderModule } from '../shared/header/header.module';
 import { SearchModule } from '../shared/search/search.module';
 import { CategoryModule } from '../shared/category/category.module';
+import { FooterModule } from '../shared/footer/footer.module';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { CategoryModule } from '../shared/category/category.module';
     HeaderModule,
     SearchModule,
     CategoryModule,
+    FooterModule,
   ]
 })
 export class PagesModule { }
