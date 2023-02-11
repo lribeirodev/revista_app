@@ -1,0 +1,44 @@
+.categories-item-cmp {
+  margin-top: 23px;
+  &__container {
+    display: flex;
+    width: 390px;
+    margin-bottom: 23px;
+
+    &__image {
+      margin-right: 14px;
+      margin-left: 23px;
+    }
+
+    &__wrapper {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+
+      &__title {
+        font-size: 18px;
+      }
+
+      &__neighborhood {
+        font-size: 15px;
+        color: #D9D9D9;
+      }
+
+      &__tags {
+        color: #D9D9D9;
+      }
+
+      &__more-info {
+        font-size: 17px;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__line {
+    width: 390px;
+    background-color: #D9D9D9;
+    height: 3px;
+    border: none;
+  }
+}

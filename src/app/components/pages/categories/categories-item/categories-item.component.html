@@ -1,0 +1,12 @@
+<div class="categories-item-cmp">
+  <div class="categories-item-cmp__container">
+      <img src="./assets/images/category/blank_category.png" alt="" class="categories-item-cmp__container__image">
+    <div class="categories-item-cmp__container__wrapper">
+      <div class="categories-item-cmp__container__wrapper__title">{{item.name}}</div>
+      <div class="categories-item-cmp__container__wrapper__neighborhood">{{item.neighborhood}}</div>
+      <div class="categories-item-cmp__container__wrapper__tags">{{item.tags}}</div>
+      <div class="categories-item-cmp__container__wrapper__more-info">ver mais informações</div>
+    </div>
+  </div>
+  <hr class="categories-item-cmp__line" *ngIf="!isLast">
+</div>

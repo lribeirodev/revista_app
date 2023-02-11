@@ -1,0 +1,17 @@
+<div class="categories-cmp">
+  <div class="categories-cmp__container">
+    <div class="categories-cmp__container__wrapper">
+      <div class="categories-cmp__container__wrapper__title">
+        {{title}}
+      </div>
+      <div class="categories-cmp__container__wrapper__back" (click)="backHome()">
+        voltar
+      </div>
+    </div>
+    <div class="categories-cmp__container__items">
+      <ng-container *ngFor="let item of categorieItems; let i = index">
+        <app-categories-item [item]="item" [isLast]="isLastItem(i)"></app-categories-item>
+      </ng-container>
+    </div>
+  </div>
+</div>
