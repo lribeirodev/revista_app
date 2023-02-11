@@ -1,0 +1,35 @@
+{
+  "title": "o que você precisa?",
+  "items": [
+    {
+    "title": "restaurante",
+    "categoriesTitle":"restaurantes",
+    "categoriesName": "restaurant"
+    },
+    {
+    "title": "informática",
+    "categoriesName": "repair-computing",
+    "categoriesTitle": "informáticas"
+    },
+    {
+    "title": "barbearia",
+    "categoriesName": "barbershop",
+    "categoriesTitle": "barbearias"
+    },
+    {
+    "title": "funilaria",
+    "categoriesName": "car-body-shop",
+    "categoriesTitle": "funilarias"
+    },
+    {
+    "title": "açougue",
+    "categoriesName": "butcher-shop",
+    "categoriesTitle": "açougues"
+    },
+    {
+    "title": "mercado",
+    "categoriesName": "local-market",
+    "categoriesTitle": "mercados"
+    }
+]
+}

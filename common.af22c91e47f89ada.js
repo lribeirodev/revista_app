@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrevista=self.webpackChunkrevista||[]).push([[592],{336:(o,r,a)=>{a.d(r,{j:()=>s});var c=a(223);let s=(()=>{class e{changeTitle(t){t.data.subscribe(i=>{window.document.title=i.title})}}return e.\u0275fac=function(t){return new(t||e)},e.\u0275prov=c.Yz7({token:e,factory:e.\u0275fac,providedIn:"root"}),e})()}}]);
