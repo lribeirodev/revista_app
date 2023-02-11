@@ -16,7 +16,7 @@ export class HeaderComponent implements OnInit {
   constructor(private content: ContentService, private route: ActivatedRoute,) { }
 
   ngOnInit(): void {
-    this.content.requestData<Header>(this.route, 'header')
+    this.content.requestDataFromPath<Header>('/assets/content/pages/base', 'header')
     .then(data => {
       this.header = data;
       this.header.title = this.header.title.toUpperCase();

@@ -19,7 +19,7 @@ export class OfferComponent implements OnInit {
   constructor(private content: ContentService, private route: ActivatedRoute,) { }
 
   ngOnInit(): void {
-    this.content.requestData<Offer>(this.route, this.contentName)
+    this.content.requestDataFromRoute<Offer>(this.route, this.contentName)
     .then(data => {
       this.offer = data;
       this.items = data.items;

@@ -16,7 +16,7 @@ export class FooterComponent implements OnInit {
   constructor(private content: ContentService, private route: ActivatedRoute,) { }
 
   ngOnInit(): void {
-    this.content.requestData<Footer>(this.route,'footer')
+    this.content.requestDataFromPath<Footer>('/assets/content/pages/base','footer')
     .then(data => this.footer = data)
     .finally(() => {
       this.loading = false;
