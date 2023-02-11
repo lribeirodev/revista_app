@@ -1,0 +1,73 @@
+[
+  {
+    "name":"Restaurante bomtamém",
+    "tags":["churrasco","almoço","delivery"],
+    "address":"rua bento barroso pereira",
+    "neighborhood":"jardim são francisco de assis",
+    "number": "121",
+    "city":"São Paulo",
+    "state":"SP",
+    "CEP":"05815-085",
+    "description":"",
+    "phone":[
+      {
+        "ddd": 11,
+        "phone":"94796-4523"
+      }
+    ],
+    "workDays":[
+      {
+        "dayOfTheWeek":"monday",
+        "workTime": {
+          "start":"11:00",
+          "end":"16:00"
+        }
+      }
+      ,
+      {
+        "dayOfTheWeek":"tuesday",
+        "workTime": {
+          "start":"11:00",
+          "end":"16:00"
+        }
+      }
+      ,
+      {
+        "dayOfTheWeek":"wednesday",
+        "workTime": {
+          "start":"11:00",
+          "end":"16:00"
+        }
+      }
+      ,
+      {
+        "dayOfTheWeek":"thursday",
+        "workTime": {
+          "start":"11:00",
+          "end":"16:00"
+        }
+      }
+      ,
+      {
+        "dayOfTheWeek":"friday",
+        "workTime": {
+          "start":"11:00",
+          "end":"16:00"
+        }
+      }
+      ,
+      {
+        "dayOfTheWeek":"saturday",
+        "workTime": {
+          "start":"11:00",
+          "end":"16:00"
+        }
+      }
+      ,
+      {
+        "dayOfTheWeek":"sunday",
+        "closed":true
+      }
+    ]
+  }
+]

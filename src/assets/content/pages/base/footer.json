@@ -1,0 +1,20 @@
+{
+  "links": [
+    {
+      "title":"divulgue conosco",
+      "src":"divulgueConosco"
+    },
+    {
+      "title":"parcerias",
+      "src":"parcerias"
+    },
+    {
+      "title":"quem somos",
+      "src":"quemSomos"
+    }
+  ],
+  "partnerships": {
+    "title": "comercios cadastrados",
+    "partners": 500
+  }
+}
