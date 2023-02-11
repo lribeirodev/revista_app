@@ -22,7 +22,7 @@ export class CategoryComponent implements OnInit {
   constructor(private content: ContentService, private route: ActivatedRoute,) { }
 
   ngOnInit(): void {
-    this.content.requestData<Category>(this.route, 'category')
+    this.content.requestDataFromPath<Category>('/assets/content/pages/base', 'category')
     .then(data => {
       this.category = data;
     })
